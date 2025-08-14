@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head><meta name="description" content="Biblical-historical, hope-filled web experience by Depths to the Heights.">
+<meta property="og:title" content="The Babylon Protocol — Corporate Colossus">
+<meta property="og:description" content="A reflective, educational, Bible-grounded web app.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://depthstoheights.github.io/The-Babylon-Protocol-Corporate-Colossus/">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" sizes="192x192">
+<meta name="theme-color" content="#0b1324">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Babylon Protocol: Corporate Colossus</title>
@@ -1367,6 +1377,28 @@ depthstoheights@gmail.com
             online: navigator.onLine,
             standalone: window.matchMedia('(display-mode: standalone)').matches 
         });
-    </script>
+ 
+</script>
+    <!-- Donation note -->
+<div role="note" style="margin:16px 0; font-size:0.95rem; opacity:0.95;">
+  <strong>Free to use.</strong>
+  If this encouraged you, feel free to
+  <a href="https://www.paypal.com/donate/?hosted_button_id=8GRE7B8C3TP2U" target="_blank" rel="noopener">buy me a coffee</a>.
+  <span>— Made by Justin, Depths to the Heights</span>
+</div>
+
+<!-- Branding footer -->
+<footer style="text-align:center;opacity:.9;margin:24px 0">
+  <strong>Made by Justin — Depths to the Heights</strong> ·
+  <a href="mailto:depthstoheights@gmail.com">depthstoheights@gmail.com</a>
+</footer>
+
+<!-- Service worker registration -->
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('./service-worker.js');
+  }
+</script>
+
 </body>
 </html>
