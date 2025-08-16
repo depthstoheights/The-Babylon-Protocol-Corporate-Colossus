@@ -31,3 +31,9 @@ In **The Babylon Protocol: Corporate Colossus**, you step into the role of a CEO
 ---
 
 © Depths to Heights Ministry
+## License
+
+- **Code** in this repository is licensed under the [MIT License](LICENSE).
+- **Text, images, and other non‑code content** are licensed under the [Creative Commons Attribution 4.0 International License](LICENSE-CONTENT).
+
+You are free to use, adapt, and share this work in accordance with the respective license terms.
